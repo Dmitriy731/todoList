@@ -52,7 +52,6 @@ class Todos extends Component {
     }
 
     render () {
-        const {todos} = this.state
         const todosList = (this.state.todos.length > 0) ? this.state.todos.map(item => 
         <TodosList content={item.content}
                    complete={item.complete}
